@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 210" width="1280" height="210" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" role="img" aria-label="A request, end to end: dns, edge, network, compute, app, data, telemetry">
+<defs>
+<linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#06080d"/></linearGradient>
+<radialGradient id="pk" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffb454" stop-opacity="0.9"/><stop offset="1" stop-color="#ffb454" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="210" rx="16" fill="url(#bg3)"/>
+<rect width="1280" height="210" rx="16" fill="none" stroke="#1a2233" stroke-width="1.5"/>
+<text x="48" y="52" font-size="13" letter-spacing="3" fill="#8792a8"><tspan fill="#ffb454">//</tspan> A REQUEST, END TO END</text>
+<text x="1232" y="52" font-size="12" letter-spacing="1.5" fill="#8792a8" text-anchor="end">GET https://brand/ &#8594; <tspan fill="#46d39a">200 OK</tspan></text>
+<line x1="96" y1="120" x2="1184" y2="120" stroke="#1a2233" stroke-width="2"/>
+<line x1="96" y1="120" x2="96" y2="120" stroke="#ffb454" stroke-width="2" opacity="0.55"><animate attributeName="x2" values="96;1184;1184" keyTimes="0;0.9;1" dur="5.0s" repeatCount="indefinite"/></line>
+<circle cx="96" cy="120" r="6.5" fill="#0c111b" stroke="#8792a8" stroke-width="1.5"><animate attributeName="fill" values="#0c111b;#0c111b;#ffb454;#0c111b;#0c111b" keyTimes="0;0.000;0.000;0.030;1" dur="5.0s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8792a8;#8792a8;#ffb454;#8792a8;#8792a8" keyTimes="0;0.000;0.000;0.030;1" dur="5.0s" repeatCount="indefinite"/></circle>
+<text x="96" y="154" font-size="11.5" fill="#8792a8" text-anchor="middle">dns.resolve</text>
+<circle cx="277" cy="120" r="6.5" fill="#0c111b" stroke="#8792a8" stroke-width="1.5"><animate attributeName="fill" values="#0c111b;#0c111b;#ffb454;#0c111b;#0c111b" keyTimes="0;0.137;0.167;0.197;1" dur="5.0s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8792a8;#8792a8;#ffb454;#8792a8;#8792a8" keyTimes="0;0.137;0.167;0.197;1" dur="5.0s" repeatCount="indefinite"/></circle>
+<text x="277" y="154" font-size="11.5" fill="#8792a8" text-anchor="middle">edge.terminate</text>
+<circle cx="459" cy="120" r="6.5" fill="#0c111b" stroke="#8792a8" stroke-width="1.5"><animate attributeName="fill" values="#0c111b;#0c111b;#ffb454;#0c111b;#0c111b" keyTimes="0;0.303;0.333;0.363;1" dur="5.0s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8792a8;#8792a8;#ffb454;#8792a8;#8792a8" keyTimes="0;0.303;0.333;0.363;1" dur="5.0s" repeatCount="indefinite"/></circle>
+<text x="459" y="154" font-size="11.5" fill="#8792a8" text-anchor="middle">net.route</text>
+<circle cx="640" cy="120" r="6.5" fill="#0c111b" stroke="#8792a8" stroke-width="1.5"><animate attributeName="fill" values="#0c111b;#0c111b;#ffb454;#0c111b;#0c111b" keyTimes="0;0.470;0.500;0.530;1" dur="5.0s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8792a8;#8792a8;#ffb454;#8792a8;#8792a8" keyTimes="0;0.470;0.500;0.530;1" dur="5.0s" repeatCount="indefinite"/></circle>
+<text x="640" y="154" font-size="11.5" fill="#8792a8" text-anchor="middle">compute.schedule</text>
+<circle cx="821" cy="120" r="6.5" fill="#0c111b" stroke="#8792a8" stroke-width="1.5"><animate attributeName="fill" values="#0c111b;#0c111b;#ffb454;#0c111b;#0c111b" keyTimes="0;0.637;0.667;0.697;1" dur="5.0s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8792a8;#8792a8;#ffb454;#8792a8;#8792a8" keyTimes="0;0.637;0.667;0.697;1" dur="5.0s" repeatCount="indefinite"/></circle>
+<text x="821" y="154" font-size="11.5" fill="#8792a8" text-anchor="middle">app.run</text>
+<circle cx="1003" cy="120" r="6.5" fill="#0c111b" stroke="#8792a8" stroke-width="1.5"><animate attributeName="fill" values="#0c111b;#0c111b;#ffb454;#0c111b;#0c111b" keyTimes="0;0.803;0.833;0.863;1" dur="5.0s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8792a8;#8792a8;#ffb454;#8792a8;#8792a8" keyTimes="0;0.803;0.833;0.863;1" dur="5.0s" repeatCount="indefinite"/></circle>
+<text x="1003" y="154" font-size="11.5" fill="#8792a8" text-anchor="middle">data.query</text>
+<circle cx="1184" cy="120" r="6.5" fill="#0c111b" stroke="#8792a8" stroke-width="1.5"><animate attributeName="fill" values="#0c111b;#0c111b;#ffb454;#0c111b;#0c111b" keyTimes="0;0.970;1.000;1.000;1" dur="5.0s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8792a8;#8792a8;#ffb454;#8792a8;#8792a8" keyTimes="0;0.970;1.000;1.000;1" dur="5.0s" repeatCount="indefinite"/></circle>
+<text x="1184" y="154" font-size="11.5" fill="#8792a8" text-anchor="middle">telemetry.emit</text>
+<circle cy="120" r="16" fill="url(#pk)"><animate attributeName="cx" values="96;1184;1184" keyTimes="0;0.9;1" dur="5.0s" repeatCount="indefinite"/></circle>
+<circle cy="120" r="4.5" fill="#fff2dc" stroke="#ffb454" stroke-width="1.5"><animate attributeName="cx" values="96;1184;1184" keyTimes="0;0.9;1" dur="5.0s" repeatCount="indefinite"/></circle>
+<text x="640" y="188" font-size="12.5" fill="#8792a8" text-anchor="middle" letter-spacing="0.5" font-family="Iowan Old Style, Georgia, serif" font-style="italic">&#8220;the whole discipline: a request that crossed all of this, and the person who made it never thought about any of it.&#8221;</text>
+</svg>
