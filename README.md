@@ -17,22 +17,26 @@ the edge, observability, and the pager.
 
 <table width="100%">
 <tr>
-<td width="33.3%"><a href="https://github.com/hisourav4u/Minutes"><img src="./assets/card_minutes.svg" alt="Minutes — meetings to notes, on-device (macOS, Swift)" width="100%"></a></td>
-<td width="33.3%"><a href="https://github.com/hisourav4u/Bulwark"><img src="./assets/card_bulwark.svg" alt="Bulwark — ad, popup and redirect blocker (Chrome MV3)" width="100%"></a></td>
-<td width="33.3%"><a href="https://github.com/hisourav4u/ClipboardManager"><img src="./assets/card_clipboardmanager.svg" alt="ClipboardManager — clipboard history bound to Cmd-Ctrl-V (macOS, Swift)" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/hisourav4u/Minutes"><img src="./assets/card_minutes.svg" alt="Minutes — meetings to notes, on-device (macOS, Swift)" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/hisourav4u/Bulwark"><img src="./assets/card_bulwark.svg" alt="Bulwark — ad, popup and redirect blocker (Chrome MV3)" width="100%"></a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/hisourav4u/ClipboardManager"><img src="./assets/card_clipboardmanager.svg" alt="ClipboardManager — clipboard history bound to Cmd-Ctrl-V (macOS, Swift)" width="100%"></a></td>
 <td><a href="https://github.com/hisourav4u/BlobTodo"><img src="./assets/card_blobtodo.svg" alt="BlobTodo — a floating todo widget (macOS, SwiftUI)" width="100%"></a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/hisourav4u/MeetingReminder"><img src="./assets/card_meetingreminder.svg" alt="MeetingReminder — a banner before every meeting (macOS, Swift)" width="100%"></a></td>
 <td><a href="https://github.com/hisourav4u/TabDeck"><img src="./assets/card_tabdeck.svg" alt="TabDeck — manual tab grouping that stays (Chrome MV3)" width="100%"></a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/hisourav4u/SolarSystem"><img src="./assets/card_solarsystem.svg" alt="Orrery — an explorable Solar System (WebGL2)" width="100%"></a></td>
 <td><a href="https://github.com/hisourav4u/HumanAnatomy"><img src="./assets/card_humananatomy.svg" alt="Corpus — a dissectable human body (WebGL2)" width="100%"></a></td>
-<td><a href="https://github.com/hisourav4u/CPUAnatomy"><img src="./assets/card_cpuanatomy.svg" alt="Silicon — an anatomy of a CPU (WebGL2)" width="100%"></a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/hisourav4u/CPUAnatomy"><img src="./assets/card_cpuanatomy.svg" alt="Silicon — an anatomy of a CPU (WebGL2)" width="100%"></a></td>
 <td><a href="https://github.com/hisourav4u/WinSim"><img src="./assets/card_winsim.svg" alt="WinSim — Windows XP and Vista in a tab (vanilla JS)" width="100%"></a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/hisourav4u/VoidGraze"><img src="./assets/card_voidgraze.svg" alt="VoidGraze — a bullet-hell scored on uptime (Canvas)" width="100%"></a></td>
 <td><a href="https://github.com/hisourav4u/PassportSheet"><img src="./assets/card_passportsheet.svg" alt="Passport Sheet — 4x6 passport-photo print tool (Canvas)" width="100%"></a></td>
 </tr>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 58" width="1280" height="58" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" role="img" aria-label="ELSEWHERE">
-<defs><linearGradient id="bgh_elsewhere" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#06080d"/></linearGradient></defs>
-<rect width="1280" height="58" rx="16" fill="url(#bgh_elsewhere)"/><rect width="1280" height="58" rx="16" fill="none" stroke="#1a2233" stroke-width="1.5"/>
-<text x="40" y="37" font-size="13" letter-spacing="3" fill="#8792a8"><tspan fill="#ffb454">//</tspan> ELSEWHERE</text>
-<text x="1240" y="37" font-size="12" letter-spacing="2" fill="#8792a8" text-anchor="end">the rest of me</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 56" width="940" height="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" role="img" aria-label="ELSEWHERE">
+<defs><linearGradient id="helsewhere" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#06080d"/></linearGradient></defs>
+<rect width="940" height="56" rx="16" fill="url(#helsewhere)"/><rect width="940" height="56" rx="16" fill="none" stroke="#1a2233" stroke-width="1.5"/>
+<text x="34" y="35" font-size="15" letter-spacing="3" fill="#8792a8"><tspan fill="#ffb454">//</tspan> ELSEWHERE</text>
+<text x="906" y="35" font-size="13" letter-spacing="2" fill="#8792a8" text-anchor="end">the rest of me</text>
 </svg>

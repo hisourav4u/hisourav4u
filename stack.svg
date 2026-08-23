@@ -1,54 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 428" width="1280" height="428" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" role="img" aria-label="Stack: languages, IaC, cloud, edge, orchestration, CI/CD, observability, data">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 446" width="940" height="446" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" role="img" aria-label="Stack: languages, IaC, cloud, edge, orchestration, CI/CD, observability, data">
 <defs><linearGradient id="bgs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#06080d"/></linearGradient></defs>
-<rect width="1280" height="428" rx="16" fill="url(#bgs)"/><rect width="1280" height="428" rx="16" fill="none" stroke="#1a2233" stroke-width="1.5"/>
-<text x="48" y="52" font-size="13" letter-spacing="3" fill="#8792a8"><tspan fill="#ffb454">//</tspan> STACK</text>
-<text x="1232" y="52" font-size="12" letter-spacing="2" fill="#8792a8" text-anchor="end">amber = daily driver</text>
-<text x="48" y="108" font-size="11.5" letter-spacing="2" fill="#8792a8">LANGUAGES</text>
-<rect x="268" y="88" width="43" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="289" y="107" font-size="13" fill="#eef2fb" text-anchor="middle">Go</text>
-<rect x="321" y="88" width="76" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="359" y="107" font-size="13" fill="#eef2fb" text-anchor="middle">Python</text>
-<rect x="407" y="88" width="60" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="437" y="107" font-size="13" fill="#eef2fb" text-anchor="middle">Bash</text>
-<text x="48" y="147" font-size="11.5" letter-spacing="2" fill="#8792a8">INFRA AS CODE</text>
-<rect x="268" y="127" width="102" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="319" y="146" font-size="13" fill="#eef2fb" text-anchor="middle">Terraform</text>
-<rect x="380" y="127" width="110" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="435" y="146" font-size="13" fill="#eef2fb" text-anchor="middle">Terragrunt</text>
-<text x="48" y="186" font-size="11.5" letter-spacing="2" fill="#8792a8">CLOUD</text>
-<rect x="268" y="166" width="51" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="294" y="185" font-size="13" fill="#eef2fb" text-anchor="middle">AWS</text>
-<rect x="329" y="166" width="51" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="355" y="185" font-size="13" fill="#eef2fb" text-anchor="middle">ECS</text>
-<rect x="390" y="166" width="51" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="416" y="185" font-size="13" fill="#eef2fb" text-anchor="middle">EKS</text>
-<rect x="452" y="166" width="76" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="490" y="185" font-size="13" fill="#eef2fb" text-anchor="middle">Lambda</text>
-<text x="48" y="225" font-size="11.5" letter-spacing="2" fill="#8792a8">EDGE</text>
-<rect x="268" y="205" width="110" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="323" y="224" font-size="13" fill="#eef2fb" text-anchor="middle">Cloudflare</text>
-<rect x="388" y="205" width="85" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="430" y="224" font-size="13" fill="#eef2fb" text-anchor="middle">Workers</text>
-<rect x="483" y="205" width="51" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="508" y="224" font-size="13" fill="#eef2fb" text-anchor="middle">WAF</text>
-<text x="48" y="264" font-size="11.5" letter-spacing="2" fill="#8792a8">ORCHESTRATION</text>
-<rect x="268" y="244" width="110" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="323" y="263" font-size="13" fill="#eef2fb" text-anchor="middle">Kubernetes</text>
-<rect x="388" y="244" width="76" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="426" y="263" font-size="13" fill="#eef2fb" text-anchor="middle">Docker</text>
-<text x="48" y="303" font-size="11.5" letter-spacing="2" fill="#8792a8">CI / CD</text>
-<rect x="268" y="283" width="144" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="340" y="302" font-size="13" fill="#eef2fb" text-anchor="middle">GitHub Actions</text>
-<rect x="422" y="283" width="102" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="472" y="302" font-size="13" fill="#eef2fb" text-anchor="middle">Spinnaker</text>
-<text x="48" y="342" font-size="11.5" letter-spacing="2" fill="#8792a8">OBSERVABILITY</text>
-<rect x="268" y="322" width="135" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="336" y="341" font-size="13" fill="#eef2fb" text-anchor="middle">OpenTelemetry</text>
-<rect x="413" y="322" width="76" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="451" y="341" font-size="13" fill="#eef2fb" text-anchor="middle">SigNoz</text>
-<rect x="500" y="322" width="110" height="28" rx="7" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
-<text x="555" y="341" font-size="13" fill="#eef2fb" text-anchor="middle">Prometheus</text>
-<text x="48" y="381" font-size="11.5" letter-spacing="2" fill="#8792a8">DATA</text>
-<rect x="268" y="361" width="110" height="28" rx="7" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
-<text x="323" y="380" font-size="13" fill="#eef2fb" text-anchor="middle">PostgreSQL</text>
+<rect width="940" height="446" rx="16" fill="url(#bgs)"/><rect width="940" height="446" rx="16" fill="none" stroke="#1a2233" stroke-width="1.5"/>
+<text x="40" y="50" font-size="15" letter-spacing="3" fill="#8792a8"><tspan fill="#ffb454">//</tspan> STACK</text>
+<text x="900" y="50" font-size="13" letter-spacing="2" fill="#8792a8" text-anchor="end">amber = daily driver</text>
+<text x="40" y="110" font-size="13" letter-spacing="1.5" fill="#8792a8">LANGUAGES</text>
+<rect x="250" y="88" width="49" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="274" y="110" font-size="14.5" fill="#eef2fb" text-anchor="middle">Go</text>
+<rect x="309" y="88" width="86" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="352" y="110" font-size="14.5" fill="#eef2fb" text-anchor="middle">Python</text>
+<rect x="405" y="88" width="68" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="439" y="110" font-size="14.5" fill="#eef2fb" text-anchor="middle">Bash</text>
+<text x="40" y="156" font-size="13" letter-spacing="1.5" fill="#8792a8">INFRA AS CODE</text>
+<rect x="250" y="134" width="115" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="307" y="156" font-size="14.5" fill="#eef2fb" text-anchor="middle">Terraform</text>
+<rect x="375" y="134" width="124" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="437" y="156" font-size="14.5" fill="#eef2fb" text-anchor="middle">Terragrunt</text>
+<text x="40" y="202" font-size="13" letter-spacing="1.5" fill="#8792a8">CLOUD</text>
+<rect x="250" y="180" width="58" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="279" y="202" font-size="14.5" fill="#eef2fb" text-anchor="middle">AWS</text>
+<rect x="318" y="180" width="58" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="347" y="202" font-size="14.5" fill="#eef2fb" text-anchor="middle">ECS</text>
+<rect x="386" y="180" width="58" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="416" y="202" font-size="14.5" fill="#eef2fb" text-anchor="middle">EKS</text>
+<rect x="455" y="180" width="86" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="498" y="202" font-size="14.5" fill="#eef2fb" text-anchor="middle">Lambda</text>
+<text x="40" y="248" font-size="13" letter-spacing="1.5" fill="#8792a8">EDGE</text>
+<rect x="250" y="226" width="124" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="312" y="248" font-size="14.5" fill="#eef2fb" text-anchor="middle">Cloudflare</text>
+<rect x="384" y="226" width="96" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="432" y="248" font-size="14.5" fill="#eef2fb" text-anchor="middle">Workers</text>
+<rect x="490" y="226" width="58" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="519" y="248" font-size="14.5" fill="#eef2fb" text-anchor="middle">WAF</text>
+<text x="40" y="294" font-size="13" letter-spacing="1.5" fill="#8792a8">ORCHESTRATION</text>
+<rect x="250" y="272" width="124" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="312" y="294" font-size="14.5" fill="#eef2fb" text-anchor="middle">Kubernetes</text>
+<rect x="384" y="272" width="86" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="427" y="294" font-size="14.5" fill="#eef2fb" text-anchor="middle">Docker</text>
+<text x="40" y="340" font-size="13" letter-spacing="1.5" fill="#8792a8">CI / CD</text>
+<rect x="250" y="318" width="162" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="331" y="340" font-size="14.5" fill="#eef2fb" text-anchor="middle">GitHub Actions</text>
+<rect x="422" y="318" width="115" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="479" y="340" font-size="14.5" fill="#eef2fb" text-anchor="middle">Spinnaker</text>
+<text x="40" y="386" font-size="13" letter-spacing="1.5" fill="#8792a8">OBSERVABILITY</text>
+<rect x="250" y="364" width="152" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="326" y="386" font-size="14.5" fill="#eef2fb" text-anchor="middle">OpenTelemetry</text>
+<rect x="412" y="364" width="86" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="455" y="386" font-size="14.5" fill="#eef2fb" text-anchor="middle">SigNoz</text>
+<rect x="509" y="364" width="124" height="34" rx="8" fill="#0e1420" stroke="#1a2233" stroke-width="1.25"/>
+<text x="571" y="386" font-size="14.5" fill="#eef2fb" text-anchor="middle">Prometheus</text>
+<text x="40" y="432" font-size="13" letter-spacing="1.5" fill="#8792a8">DATA</text>
+<rect x="250" y="410" width="124" height="34" rx="8" fill="#0e1420" stroke="#ffb454" stroke-width="1.25"/>
+<text x="312" y="432" font-size="14.5" fill="#eef2fb" text-anchor="middle">PostgreSQL</text>
 </svg>
