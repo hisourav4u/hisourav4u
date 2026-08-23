@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" role="img" aria-label="Sourav Kundu — DevOps, SRE and Platform Engineer">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0f18"/><stop offset="0.55" stop-color="#080b12"/><stop offset="1" stop-color="#05070c"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffb454" stop-opacity="0.20"/><stop offset="1" stop-color="#ffb454" stop-opacity="0"/></radialGradient>
+<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffb454" stop-opacity="0"/><stop offset="0.5" stop-color="#ffb454" stop-opacity="0.10"/><stop offset="1" stop-color="#ffb454" stop-opacity="0"/></linearGradient>
+<linearGradient id="spark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb454" stop-opacity="0.28"/><stop offset="1" stop-color="#ffb454" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1280" height="360" rx="16" fill="url(#bg)"/>
+<path d="M0 0V360M40 0V360M80 0V360M120 0V360M160 0V360M200 0V360M240 0V360M280 0V360M320 0V360M360 0V360M400 0V360M440 0V360M480 0V360M520 0V360M560 0V360M600 0V360M640 0V360M680 0V360M720 0V360M760 0V360M800 0V360M840 0V360M880 0V360M920 0V360M960 0V360M1000 0V360M1040 0V360M1080 0V360M1120 0V360M1160 0V360M1200 0V360M1240 0V360M0 0H1280M0 40H1280M0 80H1280M0 120H1280M0 160H1280M0 200H1280M0 240H1280M0 280H1280M0 320H1280" stroke="#1a2233" stroke-width="1" opacity="0.35"/>
+<ellipse cx="300" cy="150" rx="520" ry="300" fill="url(#glow)"/>
+<rect width="1280" height="360" rx="16" fill="none" stroke="#1a2233" stroke-width="1.5"/>
+<rect x="-180" y="0" width="180" height="360" fill="url(#sweep)"><animateTransform attributeName="transform" type="translate" from="-180 0" to="1280 0" dur="7s" repeatCount="indefinite"/></rect>
+<circle cx="64" cy="54" r="5" fill="#46d39a"><animate attributeName="opacity" values="1;0.35;1" dur="1.9s" repeatCount="indefinite"/></circle>
+<circle cx="64" cy="54" r="5" fill="none" stroke="#46d39a" stroke-width="1.5" opacity="0.6"><animate attributeName="r" values="5;12;5" dur="1.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="1.9s" repeatCount="indefinite"/></circle>
+<text x="80" y="59" font-size="13" letter-spacing="1.5" fill="#7c88a0">sourav.service &#183; <tspan fill="#46d39a">active (running)</tspan><tspan fill="#7c88a0">  &#183;  uptime 5y+  &#183;  on call</tspan></text>
+<text x="56" y="168" font-size="66" font-weight="700" letter-spacing="7" fill="#eef2fb">SOURAV KUNDU</text>
+<text x="58" y="210" font-size="19.5" letter-spacing="2.5" fill="#ffb454">DevOps &#183; SRE &#183; Platform &amp; Infrastructure Engineer</text>
+<text x="58" y="268" font-size="16" letter-spacing="0.5" fill="#7c88a0">~ $ <tspan fill="#eef2fb">whoami</tspan> <tspan fill="#7c88a0">&#8594;</tspan> <tspan fill="#eef2fb">someone who keeps production boring</tspan><tspan fill="#ffb454"> &#9646;<animate attributeName="fill-opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/></tspan></text>
+<text x="1224" y="56" font-size="12" letter-spacing="2.5" fill="#7c88a0" text-anchor="end">LATENCY &#183; p95</text>
+<line x1="856" y1="150" x2="1224" y2="150" stroke="#1a2233" stroke-width="1"/>
+<path d="M856.0 104.9 L862.7 101.4 L869.4 99.0 L876.1 97.6 L882.8 97.2 L889.5 97.8 L896.1 99.1 L902.8 100.8 L909.5 102.7 L916.2 104.4 L922.9 105.7 L929.6 106.5 L936.3 106.4 L943.0 105.6 L949.7 104.1 L956.4 102.0 L963.1 99.5 L969.7 96.9 L976.4 94.5 L983.1 92.6 L989.8 91.5 L996.5 91.3 L1003.2 92.2 L1009.9 94.3 L1016.6 97.3 L1023.3 101.2 L1030.0 105.6 L1036.7 110.1 L1043.3 114.3 L1050.0 117.7 L1056.7 120.1 L1063.4 121.2 L1070.1 120.9 L1076.8 119.6 L1083.5 117.5 L1090.2 115.0 L1096.9 112.6 L1103.6 110.7 L1110.3 109.6 L1116.9 109.3 L1123.6 109.9 L1130.3 111.1 L1137.0 112.9 L1143.7 115.1 L1150.4 117.6 L1157.1 120.3 L1163.8 123.1 L1170.5 125.7 L1177.2 128.1 L1183.9 129.9 L1190.5 131.1 L1197.2 131.3 L1203.9 130.6 L1210.6 128.7 L1217.3 125.7 L1224.0 121.8 L1224 150 L856 150 Z" fill="url(#spark)" opacity="0.9"/>
+<path d="M856.0 104.9 L862.7 101.4 L869.4 99.0 L876.1 97.6 L882.8 97.2 L889.5 97.8 L896.1 99.1 L902.8 100.8 L909.5 102.7 L916.2 104.4 L922.9 105.7 L929.6 106.5 L936.3 106.4 L943.0 105.6 L949.7 104.1 L956.4 102.0 L963.1 99.5 L969.7 96.9 L976.4 94.5 L983.1 92.6 L989.8 91.5 L996.5 91.3 L1003.2 92.2 L1009.9 94.3 L1016.6 97.3 L1023.3 101.2 L1030.0 105.6 L1036.7 110.1 L1043.3 114.3 L1050.0 117.7 L1056.7 120.1 L1063.4 121.2 L1070.1 120.9 L1076.8 119.6 L1083.5 117.5 L1090.2 115.0 L1096.9 112.6 L1103.6 110.7 L1110.3 109.6 L1116.9 109.3 L1123.6 109.9 L1130.3 111.1 L1137.0 112.9 L1143.7 115.1 L1150.4 117.6 L1157.1 120.3 L1163.8 123.1 L1170.5 125.7 L1177.2 128.1 L1183.9 129.9 L1190.5 131.1 L1197.2 131.3 L1203.9 130.6 L1210.6 128.7 L1217.3 125.7 L1224.0 121.8" fill="none" stroke="#ffb454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="387" stroke-dashoffset="387"><animate attributeName="stroke-dashoffset" values="387;0;0" keyTimes="0;0.72;1" dur="4.8s" repeatCount="indefinite"/></path>
+<circle cx="1224.0" cy="121.8" r="3.5" fill="#ffb454"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.7;0.72;1" dur="4.8s" repeatCount="indefinite"/></circle>
+<text x="856" y="196" font-size="12" letter-spacing="2.5" fill="#7c88a0">UPTIME &#183; 90 DAYS</text>
+<rect x="856" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.00s" repeatCount="indefinite"/></rect>
+<rect x="867" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.05s" repeatCount="indefinite"/></rect>
+<rect x="878" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.10s" repeatCount="indefinite"/></rect>
+<rect x="889" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.15s" repeatCount="indefinite"/></rect>
+<rect x="900" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.20s" repeatCount="indefinite"/></rect>
+<rect x="911" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.25s" repeatCount="indefinite"/></rect>
+<rect x="922" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.30s" repeatCount="indefinite"/></rect>
+<rect x="933" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.35s" repeatCount="indefinite"/></rect>
+<rect x="944" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.40s" repeatCount="indefinite"/></rect>
+<rect x="955" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.45s" repeatCount="indefinite"/></rect>
+<rect x="966" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.50s" repeatCount="indefinite"/></rect>
+<rect x="977" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.55s" repeatCount="indefinite"/></rect>
+<rect x="988" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.60s" repeatCount="indefinite"/></rect>
+<rect x="999" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.65s" repeatCount="indefinite"/></rect>
+<rect x="1010" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.70s" repeatCount="indefinite"/></rect>
+<rect x="1021" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.75s" repeatCount="indefinite"/></rect>
+<rect x="1032" y="208" width="8" height="22" rx="1.5" fill="#ffb454" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.80s" repeatCount="indefinite"/></rect>
+<rect x="1043" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.85s" repeatCount="indefinite"/></rect>
+<rect x="1054" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.90s" repeatCount="indefinite"/></rect>
+<rect x="1065" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="0.95s" repeatCount="indefinite"/></rect>
+<rect x="1076" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.00s" repeatCount="indefinite"/></rect>
+<rect x="1087" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.05s" repeatCount="indefinite"/></rect>
+<rect x="1098" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.10s" repeatCount="indefinite"/></rect>
+<rect x="1109" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.15s" repeatCount="indefinite"/></rect>
+<rect x="1120" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.20s" repeatCount="indefinite"/></rect>
+<rect x="1131" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.25s" repeatCount="indefinite"/></rect>
+<rect x="1142" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.30s" repeatCount="indefinite"/></rect>
+<rect x="1153" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.35s" repeatCount="indefinite"/></rect>
+<rect x="1164" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.40s" repeatCount="indefinite"/></rect>
+<rect x="1175" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.45s" repeatCount="indefinite"/></rect>
+<rect x="1186" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.50s" repeatCount="indefinite"/></rect>
+<rect x="1197" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.55s" repeatCount="indefinite"/></rect>
+<rect x="1208" y="208" width="8" height="22" rx="1.5" fill="#46d39a" opacity="0.28"><animate attributeName="opacity" values="0.24;0.9;0.24" dur="2.6s" begin="1.60s" repeatCount="indefinite"/></rect>
+<line x1="56" y1="290" x2="1224" y2="290" stroke="#1a2233" stroke-width="1"/>
+<text x="56" y="312" font-size="11" letter-spacing="2" fill="#7c88a0">REGIONS</text>
+<text x="56" y="330" font-size="13.5" fill="#eef2fb">AP &#183; EU</text>
+<text x="356" y="312" font-size="11" letter-spacing="2" fill="#7c88a0">STACK</text>
+<text x="356" y="330" font-size="13.5" fill="#eef2fb">Go &#183; Terraform &#183; k8s</text>
+<text x="656" y="312" font-size="11" letter-spacing="2" fill="#7c88a0">EDGE</text>
+<text x="656" y="330" font-size="13.5" fill="#eef2fb">Cloudflare</text>
+<text x="956" y="312" font-size="11" letter-spacing="2" fill="#7c88a0">BUILT</text>
+<text x="956" y="330" font-size="13.5" fill="#eef2fb">tools when they don&#8217;t exist</text>
+</svg>
