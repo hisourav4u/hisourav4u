@@ -81,16 +81,16 @@ def card(slug,name,tag,tagline,accent):
     o=[head(w,h,f"{name} — {tagline}"),f'<rect width="{w}" height="{h}" rx="14" fill="{PANEL}"/>',
        f'<rect width="{w}" height="{h}" rx="14" fill="none" stroke="{LINE}" stroke-width="1.25"/>',
        f'<rect x="0" y="10" width="5" height="{h-20}" rx="2.5" fill="{accent}"/>',
-       f'<text x="28" y="50" font-size="24" font-weight="700" fill="{INK}">{esc(name)}</text>']
+       f'<text x="28" y="50" font-size="21" font-weight="700" fill="{INK}">{esc(name)}</text>']
     cw=len(tag)*8.2+24
-    o.append(f'<rect x="{w-28-cw:.0f}" y="28" width="{cw:.0f}" height="27" rx="8" fill="#0e1420" stroke="{LINE}"/>')
+    o.append(f'<rect x="{w-28-cw:.0f}" y="29" width="{cw:.0f}" height="26" rx="8" fill="#0e1420" stroke="{LINE}"/>')
     o.append(f'<text x="{w-28-cw/2:.0f}" y="46" font-size="12.5" fill="{MUT}" text-anchor="middle">{esc(tag)}</text>')
-    o.append(f'<text x="28" y="90" font-size="16.5" font-family="{SERIF}" font-style="italic" fill="#aeb7c9">{esc(tagline)}</text>')
-    o.append(f'<text x="28" y="126" font-size="13" letter-spacing="1.5" fill="{accent}">open &#8594;</text>')
+    o.append(f'<text x="28" y="88" font-size="15.5" font-family="{SERIF}" font-style="italic" fill="#aeb7c9">{esc(tagline)}</text>')
+    o.append(f'<text x="28" y="124" font-size="13" letter-spacing="1.5" fill="{accent}">open &#8594;</text>')
     o.append('</svg>'); A(f"card_{slug}.svg","\n".join(o))
 
 def linkbtn(slug,label,sub,accent):
-    w,h=300,80
+    w,h=313,80   # 940/3 so 3-col link buttons render at the same scale as 2-col cards
     o=[head(w,h,f"{label} — {sub}"),f'<rect width="{w}" height="{h}" rx="12" fill="{PANEL}"/>',
        f'<rect width="{w}" height="{h}" rx="12" fill="none" stroke="{LINE}" stroke-width="1.25"/>',
        f'<rect x="0" y="10" width="5" height="{h-20}" rx="2.5" fill="{accent}"/>',

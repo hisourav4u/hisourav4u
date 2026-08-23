@@ -28,7 +28,7 @@ for i,(idx,eye,head,ql) in enumerate(CARDS):
     add(f'<rect x="{x:.0f}" y="{y}" width="{cw:.0f}" height="{ch}" rx="12" fill="#0c111b" stroke="{LINE}" stroke-width="1.25"/>')
     add(f'<text x="{x+cw-16:.0f}" y="{y+30}" font-size="13" fill="#33405c" text-anchor="end">{idx}</text>')
     add(f'<text x="{x+22:.0f}" y="{y+36}" font-size="13" letter-spacing="2" fill="{MUT}">{esc(eye)}</text>')
-    add(f'<text x="{x+22:.0f}" y="{y+76}" font-size="24" font-weight="700" fill="{INK}">{esc(head)}</text>')
+    add(f'<text x="{x+22:.0f}" y="{y+76}" font-size="21" font-weight="700" fill="{INK}">{esc(head)}</text>')
     add(f'<rect x="{x+22:.0f}" y="{y+88}" width="34" height="2.5" fill="{AMBER}"/>')
     yy=y+124
     for ln in ql:

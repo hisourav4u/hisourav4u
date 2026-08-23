@@ -28,11 +28,11 @@ add(f'<rect x="-160" y="0" width="160" height="{H}" fill="url(#sweep)">'
 # status
 add(f'<circle cx="52" cy="48" r="5" fill="{OK}"><animate attributeName="opacity" values="1;0.35;1" dur="1.9s" repeatCount="indefinite"/></circle>')
 add(f'<circle cx="52" cy="48" r="5" fill="none" stroke="{OK}" stroke-width="1.5"><animate attributeName="r" values="5;12;5" dur="1.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="1.9s" repeatCount="indefinite"/></circle>')
-add(f'<text x="68" y="53" font-size="14" letter-spacing="1" fill="{MUT}">sourav.service &#183; <tspan fill="{OK}">active (running)</tspan><tspan fill="{MUT}">  &#183;  uptime 5y+  &#183;  on call</tspan></text>')
+add(f'<text x="68" y="53" font-size="13" letter-spacing="1" fill="{MUT}">sourav.service &#183; <tspan fill="{OK}">active (running)</tspan><tspan fill="{MUT}">  &#183;  uptime 5y+  &#183;  on call</tspan></text>')
 # hero
-add(f'<text x="44" y="136" font-size="56" font-weight="700" letter-spacing="5" fill="{INK}">SOURAV KUNDU</text>')
-add(f'<text x="46" y="174" font-size="18.5" letter-spacing="1.5" fill="{AMBER}">DevOps &#183; SRE &#183; Platform &amp; Infrastructure Engineer</text>')
-add(f'<text x="46" y="222" font-size="15.5" fill="{MUT}">~ $ <tspan fill="{INK}">whoami</tspan> <tspan fill="{MUT}">&#8594;</tspan> '
+add(f'<text x="44" y="134" font-size="52" font-weight="700" letter-spacing="5" fill="{INK}">SOURAV KUNDU</text>')
+add(f'<text x="46" y="172" font-size="17" letter-spacing="1.2" fill="{AMBER}">DevOps &#183; SRE &#183; Platform &amp; Infrastructure Engineer</text>')
+add(f'<text x="46" y="220" font-size="15" fill="{MUT}">~ $ <tspan fill="{INK}">whoami</tspan> <tspan fill="{MUT}">&#8594;</tspan> '
     f'<tspan fill="{INK}">keeps production boring</tspan><tspan fill="{AMBER}"> &#9646;'
     f'<animate attributeName="fill-opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/></tspan></text>')
 # right: sparkline
@@ -61,8 +61,8 @@ add(f'<line x1="44" y1="248" x2="{W-44}" y2="248" stroke="{LINE}"/>')
 for i,(lab,val) in enumerate([("REGIONS","AP &#183; EU"),("STACK","Go &#183; Terraform &#183; k8s"),
                               ("EDGE","Cloudflare"),("BUILT","when it doesn&#8217;t exist")]):
     mx=44+i*225
-    add(f'<text x="{mx}" y="272" font-size="11.5" letter-spacing="2" fill="{MUT}">{lab}</text>')
-    add(f'<text x="{mx}" y="290" font-size="14" fill="{INK}">{val}</text>')
+    add(f'<text x="{mx}" y="272" font-size="13" letter-spacing="2" fill="{MUT}">{lab}</text>')
+    add(f'<text x="{mx}" y="290" font-size="15" fill="{INK}">{val}</text>')
 add('</svg>')
 open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"banner.svg"),"w").write("\n".join(o)+"\n")
 print("banner.svg", W,"x",H)
