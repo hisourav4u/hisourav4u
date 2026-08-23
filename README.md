@@ -1,0 +1,50 @@
+### Sourav Kundu
+
+**DevOps · SRE · Platform & Infrastructure Engineer** — Kolkata, India · working remotely, worldwide
+
+I keep production boring. The highest compliment infrastructure can earn is that nobody
+thinks about it: you make a change, the obvious thing happens, and everyone moves on.
+Five years of doing that across streaming and iGaming at scale — pipelines, clusters,
+the edge, observability, and the pager.
+
+I own cloud infrastructure end to end rather than one team's slice of it, and when the
+tool that should exist doesn't, I build it — several of the repositories below started
+exactly that way.
+
+---
+
+**Currently** — Lead DevOps / Infrastructure Engineer at Momentum Group, holding the pager for six live brands.
+**Before** — Senior DevOps Engineer at Warner Bros. Discovery.
+**Open to** — Lead / Principal infrastructure roles.
+
+**Working with**
+
+`Go` · `Python` · `Bash` — `Terraform` · `Terragrunt` — `AWS` (ECS, EKS, Lambda) · `Cloudflare` (Workers, WAF) — `Kubernetes` · `Docker` — `GitHub Actions` · `Spinnaker` — `OpenTelemetry` · `SigNoz` — `PostgreSQL`
+
+---
+
+### Things with a face on them
+
+Infrastructure is invisible by design, so here are some things that aren't.
+
+**Tools I actually run**
+
+- [**Minutes**](https://github.com/hisourav4u/Minutes) — local-first macOS meeting recorder: dual-track capture → whisper.cpp → notes, and the audio never leaves the machine
+- [**Bulwark**](https://github.com/hisourav4u/Bulwark) — extensive ad, popup and redirect blocker (Chrome MV3)
+- [**ClipboardManager**](https://github.com/hisourav4u/ClipboardManager) · [**BlobTodo**](https://github.com/hisourav4u/BlobTodo) · [**MeetingReminder**](https://github.com/hisourav4u/MeetingReminder) · [**TabDeck**](https://github.com/hisourav4u/TabDeck) — small macOS / browser tools I use every day
+
+**Built from scratch — single files, no dependencies** (hand-written WebGL2 / Canvas)
+
+- [**Orrery**](https://github.com/hisourav4u/SolarSystem) — an explorable Solar System
+- [**Corpus**](https://github.com/hisourav4u/HumanAnatomy) — a dissectable human body
+- [**Silicon**](https://github.com/hisourav4u/CPUAnatomy) — an anatomy of a CPU
+- [**WinSim**](https://github.com/hisourav4u/WinSim) — Windows XP & Vista in a browser tab
+- [**VoidGraze**](https://github.com/hisourav4u/VoidGraze) — a bullet-hell scored on uptime
+
+---
+
+### Elsewhere
+
+- **Portfolio** — https://souravkundu.dev
+- **Labs** — https://souravkundu.dev/labs
+- **LinkedIn** — https://linkedin.com/in/souravkundu1998
