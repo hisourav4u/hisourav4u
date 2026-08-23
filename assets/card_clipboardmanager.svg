@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 132" width="440" height="132" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" role="img" aria-label="ClipboardManager — clipboard history, bound to ⌘⌃V">
+<defs><linearGradient id="bgc_clipboardmanager" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#06080d"/></linearGradient></defs>
+<rect width="440" height="132" rx="14" fill="#0c111b"/>
+<rect width="440" height="132" rx="14" fill="none" stroke="#1a2233" stroke-width="1.25"/>
+<rect x="0" y="10" width="5" height="112" rx="2.5" fill="#ffb454"/>
+<text x="26" y="46" font-size="21" font-weight="700" fill="#eef2fb">ClipboardManager</text>
+<rect x="298" y="26" width="116" height="24" rx="7" fill="#0e1420" stroke="#1a2233"/>
+<text x="356" y="42" font-size="11" fill="#8792a8" text-anchor="middle">macOS · Swift</text>
+<text x="26" y="80" font-size="14.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">clipboard history, bound to ⌘⌃V</text>
+<text x="26" y="112" font-size="11.5" letter-spacing="1.5" fill="#ffb454">open &#8594;</text>
+</svg>

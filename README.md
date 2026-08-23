@@ -9,42 +9,43 @@ the edge, observability, and the pager.
 
 ![A request, end to end — dns, edge, network, compute, app, data, telemetry](./trace.svg)
 
----
+![Experience — Momentum Group, Warner Bros. Discovery, Parallel Wireless](./experience.svg)
 
-**Currently** — Lead DevOps / Infrastructure Engineer at Momentum Group, holding the pager for six live brands.
-**Before** — Senior DevOps Engineer at Warner Bros. Discovery.
-**Open to** — Lead / Principal infrastructure roles.
+![Stack — languages, IaC, cloud, edge, orchestration, CI/CD, observability, data](./stack.svg)
 
-**Working with**
+![Things with a face on them](./assets/hdr_built.svg)
 
-`Go` · `Python` · `Bash` — `Terraform` · `Terragrunt` — `AWS` (ECS, EKS, Lambda) · `Cloudflare` (Workers, WAF) — `Kubernetes` · `Docker` — `GitHub Actions` · `Spinnaker` — `OpenTelemetry` · `SigNoz` — `PostgreSQL`
+<table width="100%">
+<tr>
+<td width="33.3%"><a href="https://github.com/hisourav4u/Minutes"><img src="./assets/card_minutes.svg" alt="Minutes — meetings to notes, on-device (macOS, Swift)" width="100%"></a></td>
+<td width="33.3%"><a href="https://github.com/hisourav4u/Bulwark"><img src="./assets/card_bulwark.svg" alt="Bulwark — ad, popup and redirect blocker (Chrome MV3)" width="100%"></a></td>
+<td width="33.3%"><a href="https://github.com/hisourav4u/ClipboardManager"><img src="./assets/card_clipboardmanager.svg" alt="ClipboardManager — clipboard history bound to Cmd-Ctrl-V (macOS, Swift)" width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/hisourav4u/BlobTodo"><img src="./assets/card_blobtodo.svg" alt="BlobTodo — a floating todo widget (macOS, SwiftUI)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/MeetingReminder"><img src="./assets/card_meetingreminder.svg" alt="MeetingReminder — a banner before every meeting (macOS, Swift)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/TabDeck"><img src="./assets/card_tabdeck.svg" alt="TabDeck — manual tab grouping that stays (Chrome MV3)" width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/hisourav4u/SolarSystem"><img src="./assets/card_solarsystem.svg" alt="Orrery — an explorable Solar System (WebGL2)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/HumanAnatomy"><img src="./assets/card_humananatomy.svg" alt="Corpus — a dissectable human body (WebGL2)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/CPUAnatomy"><img src="./assets/card_cpuanatomy.svg" alt="Silicon — an anatomy of a CPU (WebGL2)" width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/hisourav4u/WinSim"><img src="./assets/card_winsim.svg" alt="WinSim — Windows XP and Vista in a tab (vanilla JS)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/VoidGraze"><img src="./assets/card_voidgraze.svg" alt="VoidGraze — a bullet-hell scored on uptime (Canvas)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/PassportSheet"><img src="./assets/card_passportsheet.svg" alt="Passport Sheet — 4x6 passport-photo print tool (Canvas)" width="100%"></a></td>
+</tr>
+</table>
 
----
+![Elsewhere](./assets/hdr_elsewhere.svg)
 
-### Things with a face on them
+<table width="100%">
+<tr>
+<td width="33.3%"><a href="https://souravkundu.dev"><img src="./assets/link_portfolio.svg" alt="Portfolio — souravkundu.dev" width="100%"></a></td>
+<td width="33.3%"><a href="https://souravkundu.dev/labs"><img src="./assets/link_labs.svg" alt="Labs — souravkundu.dev/labs" width="100%"></a></td>
+<td width="33.3%"><a href="https://linkedin.com/in/souravkundu1998"><img src="./assets/link_linkedin.svg" alt="LinkedIn — in/souravkundu1998" width="100%"></a></td>
+</tr>
+</table>
 
-Infrastructure is invisible by design, so here are some things that aren't.
-
-**Tools I actually run**
-
-- [**Minutes**](https://github.com/hisourav4u/Minutes) — local-first macOS meeting recorder: dual-track capture → whisper.cpp → notes, and the audio never leaves the machine
-- [**Bulwark**](https://github.com/hisourav4u/Bulwark) — extensive ad, popup and redirect blocker (Chrome MV3)
-- [**ClipboardManager**](https://github.com/hisourav4u/ClipboardManager) · [**BlobTodo**](https://github.com/hisourav4u/BlobTodo) · [**MeetingReminder**](https://github.com/hisourav4u/MeetingReminder) · [**TabDeck**](https://github.com/hisourav4u/TabDeck) — small macOS / browser tools I use every day
-
-**Built from scratch — no dependencies** (hand-written WebGL2 / Canvas; each split into `index.html` + `styles.css` + `app.js`, shaders in their own file)
-
-- [**Orrery**](https://github.com/hisourav4u/SolarSystem) — an explorable Solar System
-- [**Corpus**](https://github.com/hisourav4u/HumanAnatomy) — a dissectable human body
-- [**Silicon**](https://github.com/hisourav4u/CPUAnatomy) — an anatomy of a CPU
-- [**WinSim**](https://github.com/hisourav4u/WinSim) — Windows XP & Vista in a browser tab
-- [**VoidGraze**](https://github.com/hisourav4u/VoidGraze) — a bullet-hell scored on uptime
-
----
-
-### Elsewhere
-
-- **Portfolio** — https://souravkundu.dev
-- **Labs** — https://souravkundu.dev/labs
-- **LinkedIn** — https://linkedin.com/in/souravkundu1998
-
-<sub>Every panel above is a single self-contained animated SVG — no third-party services, no trackers — generated by the scripts in <a href="./tools"><code>tools/</code></a>. Same ethos as the labs: it asks the network for nothing.</sub>
+<sub>Every panel and card on this page is a single self-contained SVG — no third-party services, no trackers, no fetched fonts — generated by the scripts in <a href="./tools"><code>tools/</code></a>. Same ethos as the labs: the page asks the network for nothing.</sub>
