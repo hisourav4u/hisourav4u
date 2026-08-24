@@ -20,8 +20,8 @@ def A(name,s): open(os.path.join(ASSETS,name),"w").write(s+"\n"); print("assets/
 def experience():
     w,h=940,300
     o=[head(w,h,"Experience: Momentum Group, Warner Bros Discovery, Parallel Wireless"),'<defs>'+bg("bge")+'</defs>',frame(w,h,"bge")]
-    o.append(f'<text x="40" y="50" font-size="15" letter-spacing="3" fill="{MUT}"><tspan fill="{AMBER}">//</tspan> EXPERIENCE</text>')
-    o.append(f'<text x="{w-40}" y="50" font-size="13" letter-spacing="2" fill="{MUT}" text-anchor="end">5y+ &#183; continuing</text>')
+    o.append(f'<text x="40" y="50" font-size="13.5" letter-spacing="3" fill="{MUT}"><tspan fill="{AMBER}">//</tspan> EXPERIENCE</text>')
+    o.append(f'<text x="{w-40}" y="50" font-size="11.5" letter-spacing="2" fill="{MUT}" text-anchor="end">5y+ &#183; continuing</text>')
     roles=[("Momentum Group","Lead DevOps / Infrastructure Engineer","APR 2025 — NOW",2025.25,2026.67,AMBER,True),
            ("Warner Bros. Discovery","Senior DevOps Engineer","JUL 2021 — JAN 2025",2021.54,2025.0,INK,False),
            ("Parallel Wireless","R&D Quality Engineer — Automation","JAN — JUL 2021",2021.0,2021.54,MUT,False)]
@@ -29,15 +29,15 @@ def experience():
     # legend
     for (org,role,dates,a,b,col,cur),y in zip(roles,ey):
         o.append(f'<rect x="40" y="{y-12}" width="12" height="12" rx="2" fill="{col}"/>')
-        o.append(f'<text x="62" y="{y}" font-size="18" font-weight="700" fill="{INK}">{esc(org)}</text>')
-        o.append(f'<text x="62" y="{y+21}" font-size="13.5" fill="{AMBER if cur else MUT}">{esc(role)}</text>')
-        o.append(f'<text x="62" y="{y+40}" font-size="12.5" fill="{MUT}">{dates}</text>')
+        o.append(f'<text x="62" y="{y}" font-size="16" font-weight="700" fill="{INK}">{esc(org)}</text>')
+        o.append(f'<text x="62" y="{y+21}" font-size="12" fill="{AMBER if cur else MUT}">{esc(role)}</text>')
+        o.append(f'<text x="62" y="{y+40}" font-size="11.5" fill="{MUT}">{dates}</text>')
     # timeline
     TX0,TX1=520,900; start,now=2021.0,2026.67
     def X(t): return TX0+(t-start)/(now-start)*(TX1-TX0)
     for yr in range(2021,2027):
         x=X(yr); o.append(f'<line x1="{x:.0f}" y1="78" x2="{x:.0f}" y2="262" stroke="{LINE}" opacity="0.6"/>')
-        o.append(f'<text x="{x:.0f}" y="282" font-size="11.5" fill="{MUT}" text-anchor="middle">{yr}</text>')
+        o.append(f'<text x="{x:.0f}" y="282" font-size="11" fill="{MUT}" text-anchor="middle">{yr}</text>')
     for (org,role,dates,a,b,col,cur),y in zip(roles,ey):
         x1,x2=X(a),X(b); bw=max(x2-x1,8)
         o.append(f'<rect x="{x1:.0f}" y="{y-24}" width="{bw:.0f}" height="30" rx="6" fill="{col}" opacity="{0.9 if cur else 0.28}"/>')
@@ -55,16 +55,16 @@ def stack():
             ("OBSERVABILITY",[("OpenTelemetry",1),("SigNoz",0),("Prometheus",0)]),("DATA",[("PostgreSQL",1)])]
     w=940; rows=len(groups); y0=88; step=46; h=y0+rows*step-10
     o=[head(w,h,"Stack: languages, IaC, cloud, edge, orchestration, CI/CD, observability, data"),'<defs>'+bg("bgs")+'</defs>',frame(w,h,"bgs")]
-    o.append(f'<text x="40" y="50" font-size="15" letter-spacing="3" fill="{MUT}"><tspan fill="{AMBER}">//</tspan> STACK</text>')
-    o.append(f'<text x="{w-40}" y="50" font-size="13" letter-spacing="2" fill="{MUT}" text-anchor="end">amber = daily driver</text>')
+    o.append(f'<text x="40" y="50" font-size="13.5" letter-spacing="3" fill="{MUT}"><tspan fill="{AMBER}">//</tspan> STACK</text>')
+    o.append(f'<text x="{w-40}" y="50" font-size="11.5" letter-spacing="2" fill="{MUT}" text-anchor="end">amber = daily driver</text>')
     y=y0
     for gname,chips in groups:
-        o.append(f'<text x="40" y="{y+22}" font-size="13" letter-spacing="1.5" fill="{MUT}">{gname}</text>')
+        o.append(f'<text x="40" y="{y+22}" font-size="11.5" letter-spacing="1.5" fill="{MUT}">{gname}</text>')
         x=250
         for name,daily in chips:
             cw=len(name)*9.4+30; bd=AMBER if daily else LINE
             o.append(f'<rect x="{x:.0f}" y="{y}" width="{cw:.0f}" height="34" rx="8" fill="#0e1420" stroke="{bd}" stroke-width="1.25"/>')
-            o.append(f'<text x="{x+cw/2:.0f}" y="{y+22}" font-size="14.5" fill="{INK}" text-anchor="middle">{esc(name)}</text>')
+            o.append(f'<text x="{x+cw/2:.0f}" y="{y+22}" font-size="13" fill="{INK}" text-anchor="middle">{esc(name)}</text>')
             x+=cw+10
         y+=step
     o.append('</svg>'); W("stack.svg","\n".join(o))
@@ -72,8 +72,8 @@ def stack():
 def header(slug,label,meta):
     w,h=940,56
     o=[head(w,h,label),'<defs>'+bg("h"+slug)+'</defs>',frame(w,h,"h"+slug)]
-    o.append(f'<text x="34" y="35" font-size="15" letter-spacing="3" fill="{MUT}"><tspan fill="{AMBER}">//</tspan> {esc(label)}</text>')
-    o.append(f'<text x="{w-34}" y="35" font-size="13" letter-spacing="2" fill="{MUT}" text-anchor="end">{esc(meta)}</text>')
+    o.append(f'<text x="34" y="35" font-size="13.5" letter-spacing="3" fill="{MUT}"><tspan fill="{AMBER}">//</tspan> {esc(label)}</text>')
+    o.append(f'<text x="{w-34}" y="35" font-size="11.5" letter-spacing="2" fill="{MUT}" text-anchor="end">{esc(meta)}</text>')
     o.append('</svg>'); A(f"hdr_{slug}.svg","\n".join(o))
 
 def card(slug,name,tag,tagline,accent):
@@ -81,12 +81,12 @@ def card(slug,name,tag,tagline,accent):
     o=[head(w,h,f"{name} — {tagline}"),f'<rect width="{w}" height="{h}" rx="14" fill="{PANEL}"/>',
        f'<rect width="{w}" height="{h}" rx="14" fill="none" stroke="{LINE}" stroke-width="1.25"/>',
        f'<rect x="0" y="10" width="5" height="{h-20}" rx="2.5" fill="{accent}"/>',
-       f'<text x="28" y="50" font-size="21" font-weight="700" fill="{INK}">{esc(name)}</text>']
+       f'<text x="28" y="50" font-size="18" font-weight="700" fill="{INK}">{esc(name)}</text>']
     cw=len(tag)*8.2+24
     o.append(f'<rect x="{w-28-cw:.0f}" y="29" width="{cw:.0f}" height="26" rx="8" fill="#0e1420" stroke="{LINE}"/>')
-    o.append(f'<text x="{w-28-cw/2:.0f}" y="46" font-size="12.5" fill="{MUT}" text-anchor="middle">{esc(tag)}</text>')
-    o.append(f'<text x="28" y="88" font-size="15.5" font-family="{SERIF}" font-style="italic" fill="#aeb7c9">{esc(tagline)}</text>')
-    o.append(f'<text x="28" y="124" font-size="13" letter-spacing="1.5" fill="{accent}">open &#8594;</text>')
+    o.append(f'<text x="{w-28-cw/2:.0f}" y="46" font-size="11.5" fill="{MUT}" text-anchor="middle">{esc(tag)}</text>')
+    o.append(f'<text x="28" y="88" font-size="13.5" font-family="{SERIF}" font-style="italic" fill="#aeb7c9">{esc(tagline)}</text>')
+    o.append(f'<text x="28" y="124" font-size="11.5" letter-spacing="1.5" fill="{accent}">open &#8594;</text>')
     o.append('</svg>'); A(f"card_{slug}.svg","\n".join(o))
 
 def linkbtn(slug,label,sub,accent):
@@ -94,9 +94,9 @@ def linkbtn(slug,label,sub,accent):
     o=[head(w,h,f"{label} — {sub}"),f'<rect width="{w}" height="{h}" rx="12" fill="{PANEL}"/>',
        f'<rect width="{w}" height="{h}" rx="12" fill="none" stroke="{LINE}" stroke-width="1.25"/>',
        f'<rect x="0" y="10" width="5" height="{h-20}" rx="2.5" fill="{accent}"/>',
-       f'<text x="24" y="34" font-size="12.5" letter-spacing="2.5" fill="{MUT}">{esc(label)}</text>',
-       f'<text x="24" y="58" font-size="16" fill="{INK}">{esc(sub)}</text>',
-       f'<text x="{w-20}" y="32" font-size="16" fill="{accent}" text-anchor="end">&#8599;</text>','</svg>']
+       f'<text x="24" y="34" font-size="11.5" letter-spacing="2.5" fill="{MUT}">{esc(label)}</text>',
+       f'<text x="24" y="58" font-size="14" fill="{INK}">{esc(sub)}</text>',
+       f'<text x="{w-20}" y="32" font-size="14" fill="{accent}" text-anchor="end">&#8599;</text>','</svg>']
     A(f"link_{slug}.svg","\n".join(o))
 
 experience(); stack()

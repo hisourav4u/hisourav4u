@@ -12,8 +12,8 @@ add(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" 
 add('<defs><linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#06080d"/></linearGradient>'
     f'<radialGradient id="pk" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="{AMBER}" stop-opacity="0.9"/><stop offset="1" stop-color="{AMBER}" stop-opacity="0"/></radialGradient></defs>')
 add(f'<rect width="{W}" height="{H}" rx="16" fill="url(#bg3)"/><rect width="{W}" height="{H}" rx="16" fill="none" stroke="{LINE}" stroke-width="1.5"/>')
-add(f'<text x="40" y="48" font-size="15" letter-spacing="3" fill="{MUT}"><tspan fill="{AMBER}">//</tspan> A REQUEST, END TO END</text>')
-add(f'<text x="{W-40}" y="48" font-size="13" letter-spacing="1" fill="{MUT}" text-anchor="end">GET https://brand/ &#8594; <tspan fill="{OK}">200 OK</tspan></text>')
+add(f'<text x="40" y="48" font-size="13.5" letter-spacing="3" fill="{MUT}"><tspan fill="{AMBER}">//</tspan> A REQUEST, END TO END</text>')
+add(f'<text x="{W-40}" y="48" font-size="11.5" letter-spacing="1" fill="{MUT}" text-anchor="end">GET https://brand/ &#8594; <tspan fill="{OK}">200 OK</tspan></text>')
 add(f'<line x1="{X0}" y1="{RY}" x2="{X1}" y2="{RY}" stroke="{LINE}" stroke-width="2"/>')
 add(f'<line x1="{X0}" y1="{RY}" x2="{X0}" y2="{RY}" stroke="{AMBER}" stroke-width="2" opacity="0.55"><animate attributeName="x2" values="{X0};{X1};{X1}" keyTimes="0;0.9;1" dur="{DUR}s" repeatCount="indefinite"/></line>')
 for i,(x,span) in enumerate(zip(xs,SPANS)):
@@ -21,10 +21,10 @@ for i,(x,span) in enumerate(zip(xs,SPANS)):
     add(f'<circle cx="{x:.0f}" cy="{RY}" r="6.5" fill="#0c111b" stroke="{MUT}" stroke-width="1.5">'
         f'<animate attributeName="fill" values="#0c111b;#0c111b;{AMBER};#0c111b;#0c111b" keyTimes="{kt}" dur="{DUR}s" repeatCount="indefinite"/>'
         f'<animate attributeName="stroke" values="{MUT};{MUT};{AMBER};{MUT};{MUT}" keyTimes="{kt}" dur="{DUR}s" repeatCount="indefinite"/></circle>')
-    add(f'<text x="{x:.0f}" y="{RY+32}" font-size="12.5" fill="{MUT}" text-anchor="middle">{span.replace("&","&amp;")}</text>')
+    add(f'<text x="{x:.0f}" y="{RY+32}" font-size="11.5" fill="{MUT}" text-anchor="middle">{span.replace("&","&amp;")}</text>')
 add(f'<circle cy="{RY}" r="15" fill="url(#pk)"><animate attributeName="cx" values="{X0};{X1};{X1}" keyTimes="0;0.9;1" dur="{DUR}s" repeatCount="indefinite"/></circle>')
 add(f'<circle cy="{RY}" r="4.5" fill="#fff2dc" stroke="{AMBER}" stroke-width="1.5"><animate attributeName="cx" values="{X0};{X1};{X1}" keyTimes="0;0.9;1" dur="{DUR}s" repeatCount="indefinite"/></circle>')
-add(f'<text x="{W/2:.0f}" y="{H-20}" font-size="14" fill="{MUT}" text-anchor="middle" font-family="Iowan Old Style, Georgia, serif" font-style="italic">'
+add(f'<text x="{W/2:.0f}" y="{H-20}" font-size="13" fill="{MUT}" text-anchor="middle" font-family="Iowan Old Style, Georgia, serif" font-style="italic">'
     f'&#8220;a request that crossed all of this — and the person who made it never thought about any of it.&#8221;</text>')
 add('</svg>')
 open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"trace.svg"),"w").write("\n".join(o)+"\n")

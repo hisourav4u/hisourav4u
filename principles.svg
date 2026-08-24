@@ -1,49 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 672" width="940" height="672" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" role="img" aria-label="How I work — principles">
 <defs><linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#06080d"/></linearGradient><linearGradient id="sw2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffb454" stop-opacity="0"/><stop offset="0.5" stop-color="#ffb454" stop-opacity="0.06"/><stop offset="1" stop-color="#ffb454" stop-opacity="0"/></linearGradient></defs>
 <rect width="940" height="672" rx="16" fill="url(#bg2)"/><rect width="940" height="672" rx="16" fill="none" stroke="#1a2233" stroke-width="1.5"/>
-<text x="40" y="50" font-size="15" letter-spacing="3" fill="#8792a8"><tspan fill="#ffb454">//</tspan> HOW I WORK</text>
-<text x="900" y="50" font-size="13" letter-spacing="2" fill="#8792a8" text-anchor="end">principles.d &#183; 6 loaded</text>
+<text x="40" y="50" font-size="13.5" letter-spacing="3" fill="#8792a8"><tspan fill="#ffb454">//</tspan> HOW I WORK</text>
+<text x="900" y="50" font-size="11.5" letter-spacing="2" fill="#8792a8" text-anchor="end">principles.d &#183; 6 loaded</text>
 <rect x="-180" y="70" width="180" height="562" fill="url(#sw2)"><animateTransform attributeName="transform" type="translate" from="-180 0" to="940 0" dur="8s" repeatCount="indefinite"/></rect>
 <rect x="40" y="86" width="420" height="168" rx="12" fill="#0c111b" stroke="#1a2233" stroke-width="1.25"/>
-<text x="444" y="116" font-size="13" fill="#33405c" text-anchor="end">01</text>
-<text x="62" y="122" font-size="13" letter-spacing="2" fill="#8792a8">IN PRODUCTION</text>
-<text x="62" y="162" font-size="21" font-weight="700" fill="#eef2fb">Five years, kept boring</text>
+<text x="444" y="116" font-size="11.5" fill="#33405c" text-anchor="end">01</text>
+<text x="62" y="122" font-size="11.5" letter-spacing="2" fill="#8792a8">IN PRODUCTION</text>
+<text x="62" y="162" font-size="18" font-weight="700" fill="#eef2fb">Five years, kept boring</text>
 <rect x="62" y="174" width="34" height="2.5" fill="#ffb454"/>
-<text x="62" y="210" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">The best infrastructure is the</text>
-<text x="62" y="235" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">kind nobody has to think about.</text>
+<text x="62" y="210" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">The best infrastructure is the</text>
+<text x="62" y="235" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">kind nobody has to think about.</text>
 <rect x="480" y="86" width="420" height="168" rx="12" fill="#0c111b" stroke="#1a2233" stroke-width="1.25"/>
-<text x="884" y="116" font-size="13" fill="#33405c" text-anchor="end">02</text>
-<text x="502" y="122" font-size="13" letter-spacing="2" fill="#8792a8">WHAT I OWN</text>
-<text x="502" y="162" font-size="21" font-weight="700" fill="#eef2fb">The entire cloud estate</text>
+<text x="884" y="116" font-size="11.5" fill="#33405c" text-anchor="end">02</text>
+<text x="502" y="122" font-size="11.5" letter-spacing="2" fill="#8792a8">WHAT I OWN</text>
+<text x="502" y="162" font-size="18" font-weight="700" fill="#eef2fb">The entire cloud estate</text>
 <rect x="502" y="174" width="34" height="2.5" fill="#ffb454"/>
-<text x="502" y="210" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">Not one team's slice — six live</text>
-<text x="502" y="235" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">brands, end to end.</text>
+<text x="502" y="210" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">Not one team's slice — six live</text>
+<text x="502" y="235" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">brands, end to end.</text>
 <rect x="40" y="274" width="420" height="168" rx="12" fill="#0c111b" stroke="#1a2233" stroke-width="1.25"/>
-<text x="444" y="304" font-size="13" fill="#33405c" text-anchor="end">03</text>
-<text x="62" y="310" font-size="13" letter-spacing="2" fill="#8792a8">HOW WORK FINDS ME</text>
-<text x="62" y="350" font-size="21" font-weight="700" fill="#eef2fb">No ticket required</text>
+<text x="444" y="304" font-size="11.5" fill="#33405c" text-anchor="end">03</text>
+<text x="62" y="310" font-size="11.5" letter-spacing="2" fill="#8792a8">HOW WORK FINDS ME</text>
+<text x="62" y="350" font-size="18" font-weight="700" fill="#eef2fb">No ticket required</text>
 <rect x="62" y="362" width="34" height="2.5" fill="#ffb454"/>
-<text x="62" y="398" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">If I see it, I build it. I don't</text>
-<text x="62" y="423" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">wait to be assigned.</text>
+<text x="62" y="398" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">If I see it, I build it. I don't</text>
+<text x="62" y="423" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">wait to be assigned.</text>
 <rect x="480" y="274" width="420" height="168" rx="12" fill="#0c111b" stroke="#1a2233" stroke-width="1.25"/>
-<text x="884" y="304" font-size="13" fill="#33405c" text-anchor="end">04</text>
-<text x="502" y="310" font-size="13" letter-spacing="2" fill="#8792a8">WHAT DONE MEANS</text>
-<text x="502" y="350" font-size="21" font-weight="700" fill="#eef2fb">End to end, no ifs</text>
+<text x="884" y="304" font-size="11.5" fill="#33405c" text-anchor="end">04</text>
+<text x="502" y="310" font-size="11.5" letter-spacing="2" fill="#8792a8">WHAT DONE MEANS</text>
+<text x="502" y="350" font-size="18" font-weight="700" fill="#eef2fb">End to end, no ifs</text>
 <rect x="502" y="362" width="34" height="2.5" fill="#ffb454"/>
-<text x="502" y="398" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">Shipped, observed, and rehearsed</text>
-<text x="502" y="423" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">for the day it breaks.</text>
+<text x="502" y="398" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">Shipped, observed, and rehearsed</text>
+<text x="502" y="423" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">for the day it breaks.</text>
 <rect x="40" y="462" width="420" height="168" rx="12" fill="#0c111b" stroke="#1a2233" stroke-width="1.25"/>
-<text x="444" y="492" font-size="13" fill="#33405c" text-anchor="end">05</text>
-<text x="62" y="498" font-size="13" letter-spacing="2" fill="#8792a8">WHEN IT DOESN'T EXIST</text>
-<text x="62" y="538" font-size="21" font-weight="700" fill="#eef2fb">I build the tool</text>
+<text x="444" y="492" font-size="11.5" fill="#33405c" text-anchor="end">05</text>
+<text x="62" y="498" font-size="11.5" letter-spacing="2" fill="#8792a8">WHEN IT DOESN'T EXIST</text>
+<text x="62" y="538" font-size="18" font-weight="700" fill="#eef2fb">I build the tool</text>
 <rect x="62" y="550" width="34" height="2.5" fill="#ffb454"/>
-<text x="62" y="586" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">Paging, DNS checks, escalation —</text>
-<text x="62" y="611" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">self-hosted, not licensed.</text>
+<text x="62" y="586" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">Paging, DNS checks, escalation —</text>
+<text x="62" y="611" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">self-hosted, not licensed.</text>
 <rect x="480" y="462" width="420" height="168" rx="12" fill="#0c111b" stroke="#1a2233" stroke-width="1.25"/>
-<text x="884" y="492" font-size="13" fill="#33405c" text-anchor="end">06</text>
-<text x="502" y="498" font-size="13" letter-spacing="2" fill="#8792a8">BLAST RADIUS</text>
-<text x="502" y="538" font-size="21" font-weight="700" fill="#eef2fb">Plan, then apply</text>
+<text x="884" y="492" font-size="11.5" fill="#33405c" text-anchor="end">06</text>
+<text x="502" y="498" font-size="11.5" letter-spacing="2" fill="#8792a8">BLAST RADIUS</text>
+<text x="502" y="538" font-size="18" font-weight="700" fill="#eef2fb">Plan, then apply</text>
 <rect x="502" y="550" width="34" height="2.5" fill="#ffb454"/>
-<text x="502" y="586" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">Reversible by default. The 2am</text>
-<text x="502" y="611" font-size="15.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">version has to be safe too.</text>
+<text x="502" y="586" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">Reversible by default. The 2am</text>
+<text x="502" y="611" font-size="13.5" font-family="Iowan Old Style, Georgia, 'Times New Roman', serif" font-style="italic" fill="#aeb7c9">version has to be safe too.</text>
 </svg>
