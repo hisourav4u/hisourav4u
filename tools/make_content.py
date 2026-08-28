@@ -102,6 +102,7 @@ def linkbtn(slug,label,sub,accent):
 experience(); stack()
 header("built","THINGS WITH A FACE ON THEM","self-contained · no dependencies")
 header("elsewhere","ELSEWHERE","the rest of me")
+header("infra","INFRASTRUCTURE, IN GO","dependency-free · single binary")
 CARDS=[("minutes","Minutes","macOS · Swift","meetings → notes, on-device",AMBER),
  ("bulwark","Bulwark","Chrome · MV3","ad, popup & redirect blocker",AMBER),
  ("clipboardmanager","ClipboardManager","macOS · Swift","clipboard history, ⌘⌃V",AMBER),
@@ -113,8 +114,20 @@ CARDS=[("minutes","Minutes","macOS · Swift","meetings → notes, on-device",AMB
  ("cpuanatomy","Silicon","WebGL2","an anatomy of a CPU",OK),
  ("winsim","WinSim","vanilla JS","Windows XP & Vista in a tab",OK),
  ("voidgraze","VoidGraze","Canvas","a bullet-hell scored on uptime",OK),
- ("passportsheet","Passport Sheet","Canvas","4×6 passport-photo print tool",OK)]
+ ("passportsheet","Passport Sheet","Canvas","4×6 passport-photo print tool",OK),
+ ("freefall","Freefall","Canvas","a ball down a narrowing chasm",OK),
+ ("deploytheteam","Deploy the Team","Canvas","a river-crossing for shipping",OK)]
 for a in CARDS: card(*a)
+INFRA=[("ship","ship","Go · CLI","what are you about to release?",AMBER),
+ ("blastradius","blastradius","Go · CLI","score a Terraform plan's blast radius",AMBER),
+ ("freeze","freeze","Go · CLI","change-freeze as a CI gate",AMBER),
+ ("kubectlblastradius","kubectl-blastradius","kubectl plugin","what breaks if this workload does",AMBER),
+ ("budget","budget","Go · CLI","error budgets to burn-rate alerts",AMBER),
+ ("idle","idle","Go · CLI","find AWS spend doing nothing",AMBER),
+ ("runbook","runbook","Go · TUI","a runbook that walks with you",AMBER),
+ ("oncall","oncall","Go · Postgres","self-hosted incident and paging",BLUE),
+ ("oncallescalator","oncall-escalator","Go · SQLite","auto-escalate on-call mentions",BLUE)]
+for a in INFRA: card(*a)
 linkbtn("portfolio","PORTFOLIO","souravkundu.dev",AMBER)
 linkbtn("labs","LABS","souravkundu.dev/labs",OK)
 linkbtn("linkedin","LINKEDIN","in/souravkundu1998",BLUE)

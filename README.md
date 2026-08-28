@@ -13,6 +13,31 @@ the edge, observability, and the pager.
 
 ![Stack — languages, IaC, cloud, edge, orchestration, CI/CD, observability, data](./stack.svg)
 
+![Infrastructure, in Go — dependency-free, single-binary tools and services](./assets/hdr_infra.svg)
+
+<table width="100%">
+<tr>
+<td width="50%"><a href="https://github.com/hisourav4u/ship"><img src="./assets/card_ship.svg" alt="ship — what are you about to release? (Go CLI)" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/hisourav4u/blastradius"><img src="./assets/card_blastradius.svg" alt="blastradius — score a Terraform plan's blast radius (Go CLI)" width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/hisourav4u/freeze"><img src="./assets/card_freeze.svg" alt="freeze — change-freeze as a CI gate (Go CLI)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/kubectl-blastradius"><img src="./assets/card_kubectlblastradius.svg" alt="kubectl-blastradius — what breaks if this workload does (kubectl plugin)" width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/hisourav4u/budget"><img src="./assets/card_budget.svg" alt="budget — error budgets to burn-rate alerts (Go CLI)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/idle"><img src="./assets/card_idle.svg" alt="idle — find AWS spend doing nothing (Go CLI)" width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/hisourav4u/runbook"><img src="./assets/card_runbook.svg" alt="runbook — a runbook that walks with you (Go TUI)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/oncall"><img src="./assets/card_oncall.svg" alt="oncall — self-hosted incident and paging (Go, Postgres)" width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/hisourav4u/oncall-escalator"><img src="./assets/card_oncallescalator.svg" alt="oncall-escalator — auto-escalate on-call mentions (Go, SQLite)" width="100%"></a></td>
+<td width="50%"></td>
+</tr>
+</table>
+
 ![Things with a face on them](./assets/hdr_built.svg)
 
 <table width="100%">
@@ -39,6 +64,10 @@ the edge, observability, and the pager.
 <tr>
 <td><a href="https://github.com/hisourav4u/VoidGraze"><img src="./assets/card_voidgraze.svg" alt="VoidGraze — a bullet-hell scored on uptime (Canvas)" width="100%"></a></td>
 <td><a href="https://github.com/hisourav4u/PassportSheet"><img src="./assets/card_passportsheet.svg" alt="Passport Sheet — 4x6 passport-photo print tool (Canvas)" width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/hisourav4u/Freefall"><img src="./assets/card_freefall.svg" alt="Freefall — a ball down a narrowing chasm (Canvas)" width="100%"></a></td>
+<td><a href="https://github.com/hisourav4u/DeployTheTeam"><img src="./assets/card_deploytheteam.svg" alt="Deploy the Team — a river-crossing for shipping (Canvas)" width="100%"></a></td>
 </tr>
 </table>
 
