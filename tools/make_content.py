@@ -22,7 +22,7 @@ def experience():
     o=[head(w,h,"Experience: Momentum Group, Warner Bros Discovery, Parallel Wireless"),'<defs>'+bg("bge")+'</defs>',frame(w,h,"bge")]
     o.append(f'<text x="40" y="50" font-size="13.5" letter-spacing="3" fill="{MUT}"><tspan fill="{AMBER}">//</tspan> EXPERIENCE</text>')
     o.append(f'<text x="{w-40}" y="50" font-size="11.5" letter-spacing="2" fill="{MUT}" text-anchor="end">5y+ &#183; continuing</text>')
-    roles=[("Momentum Group","Lead DevOps / Infrastructure Engineer","APR 2025 — NOW",2025.25,2026.67,AMBER,True),
+    roles=[("Momentum Group","DevOps / Infrastructure Engineer","APR 2025 — NOW",2025.25,2026.67,AMBER,True),
            ("Warner Bros. Discovery","Senior DevOps Engineer","JUL 2021 — JAN 2025",2021.54,2025.0,INK,False),
            ("Parallel Wireless","R&D Quality Engineer — Automation","JAN — JUL 2021",2021.0,2021.54,MUT,False)]
     ey=[96,168,240]
